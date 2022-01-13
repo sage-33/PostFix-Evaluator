@@ -79,4 +79,15 @@ public class LinkedStackTest {
 	public void testStackUnderflowTop() {
 		stack.top();
 	}
+
+	@Test(timeout = 5000, expected = StackUnderflowException.class)
+	public void testStackUnderflowPopSetDiff() {
+		stack.push(0);
+		stack.push(1);
+		stack.push(2);
+		stack.pop();
+		stack.pop();
+		stack.pop();
+		stack.pop();
+	}
 }
