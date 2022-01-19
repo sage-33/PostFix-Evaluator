@@ -55,7 +55,7 @@ public class ExponentOperatorTest {
 		fail("Operator should not compute when all arguments have not been set.");
 	}
 
-	// new test case that passes number 1
+	// 1st new test case that passes
 	@Test(timeout = 5000)
 	public void testPerformOperationSetDiff() {
 		operator.setOperand(0, new Operand<Integer>(4));
@@ -66,7 +66,7 @@ public class ExponentOperatorTest {
 		assertEquals("Operator applied to 4 and 3 should produce 64", 64, value);
 	}
 
-	// new test case that passes number 2
+	// 2nd new test case that passes
 	@Test(timeout = 5000)
 	public void testPerformOperationSetDiff2() {
 		operator.setOperand(0, op0);
