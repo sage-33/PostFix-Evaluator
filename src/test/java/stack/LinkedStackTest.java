@@ -15,6 +15,7 @@ public class LinkedStackTest {
 
 	@Before
 	public void setup() {
+		// initialize LinkedStack for integers and string
 		stack = new LinkedStack<Integer>();
 		stringStack = new LinkedStack<String>();
 

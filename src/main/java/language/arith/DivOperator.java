@@ -53,6 +53,7 @@ public class DivOperator extends BinaryOperator<Integer> {
 		if (operand != null && operand.getValue() == 0 && i == 1) {
 			throw new IllegalStateException("Could not perform operation due to illegal denominator");
 		} else {
+			// Call BinaryOperator's setOperand
 			super.setOperand(i, operand);
 		}
 	}
