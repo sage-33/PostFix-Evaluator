@@ -10,6 +10,8 @@ import language.BinaryOperator;
  * The {@link DivOperator} is an operator that performs division on two
  * integers.
  * 
+ * @author sagesilberman
+ * 
  * @author jcollard, jddevaug
  *
  */

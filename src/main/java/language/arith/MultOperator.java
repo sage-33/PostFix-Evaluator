@@ -8,6 +8,7 @@ import language.Operator;
  * The {@code MultOperator} is an operator that performs multiplication on two
  * integers.
  * 
+ * @author sagesilberman
  * @author jcollard, jddevaug
  *
  */

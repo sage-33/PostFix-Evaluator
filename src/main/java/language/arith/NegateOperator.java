@@ -7,6 +7,7 @@ import language.Operator;
  * The {@code NegateOperator} is an operator that performs negation on a single
  * integer
  * 
+ * @author sagesilberman
  * @author jcollard, jddevaug
  *
  */

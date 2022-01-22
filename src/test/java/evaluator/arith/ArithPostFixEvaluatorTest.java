@@ -76,6 +76,7 @@ public class ArithPostFixEvaluatorTest {
 		evaluator.evaluate("1 2");
 	}
 
+	// mult
 	@Test(timeout = 5000)
 	public void testEvaluateMult2() {
 		Integer result = evaluator.evaluate("5 8 *");
@@ -88,6 +89,7 @@ public class ArithPostFixEvaluatorTest {
 		assertEquals(new Integer(120), result);
 	}
 
+	// div
 	@Test(timeout = 5000)
 	public void testEvaluateDiv() {
 		Integer result = evaluator.evaluate("45 5 /");
@@ -100,6 +102,7 @@ public class ArithPostFixEvaluatorTest {
 		assertEquals(new Integer(4), result);
 	}
 
+	// exponent
 	@Test(timeout = 5000)
 	public void testEvaluateExponent() {
 		Integer result = evaluator.evaluate("2 3 ^");
@@ -112,6 +115,7 @@ public class ArithPostFixEvaluatorTest {
 		assertEquals(new Integer(64), result);
 	}
 
+	// if fails
 	@Test(timeout = 5000, expected = IllegalPostFixExpressionException.class)
 	public void testExpressionException() {
 		evaluator.evaluate("+ * /");

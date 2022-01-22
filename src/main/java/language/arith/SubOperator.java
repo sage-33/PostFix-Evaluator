@@ -8,6 +8,8 @@ import language.Operator;
  * The {@code SubOperator} is an operator that performs subtraction on two
  * integers.
  * 
+ * 
+ * @author sagesilberman
  * @author jcollard, jddevaug
  *
  */

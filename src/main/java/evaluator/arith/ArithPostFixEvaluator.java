@@ -9,6 +9,8 @@ import stack.LinkedStack;
 import stack.StackInterface;
 
 /**
+ * @author sagesilberman
+ * 
  * An {@link ArithPostFixEvaluator} is a post fix evaluator over simple
  * arithmetic expressions.
  *
